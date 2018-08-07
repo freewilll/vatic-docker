@@ -18,8 +18,6 @@ RUN sudo pip install SQLAlchemy==1.0.0 && \
     sudo pip install numpy==1.9.2 && \
     sudo pip install Pillow
 
-COPY vatic /root/vatic
-
 RUN cd /root && \
     git clone https://github.com/cvondrick/turkic.git && \
     git clone https://github.com/freewilll/vatic.git && \
